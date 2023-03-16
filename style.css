@@ -5,6 +5,11 @@
   outline: none;
 }
 
+h1{
+  font-family: Open Sans;
+  font-size: 48px;
+  color: #002837;
+}
 
 body{
   font-family: Open Sans;
@@ -13,9 +18,9 @@ body{
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
-  background: url('arrow-left.png') no-repeat;
-
-  background-size: cover;
+  background: url('bg.png') no-repeat;
+  background-size: 100%;
+  background-position: 50%;
 }
 
 .mainbox{
